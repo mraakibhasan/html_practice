@@ -1,0 +1,77 @@
+/* Float and Combinational Selector */
+/* .image{
+    width: 300px;
+    
+}
+
+.c1 span{
+    color: green;
+}
+
+.c1:hover p{
+    color: red;
+}
+.c1:hover span{
+    color: maroon;
+}
+.c1:hover img{
+    width: 400px;
+    margin-right: 20px;
+    margin-left: 20px ;
+    float: left;
+} */
+
+/* Opacity */
+.op{
+    width: 300px;
+    border-radius: 10px;
+    opacity: 0.7;
+    transition: 0.5;
+}
+
+.op:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+/* Navigation */
+
+ul{
+    list-style-type: none;
+    background-color: #2a2a2a;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+}
+
+li{
+    display: inline;
+    margin-right: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.active{
+    background-color: rgb(64, 99, 226);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.t{
+    width: 500px;
+    height: 500px;
+    background-image: url(/assets/img/img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.a{
+    width: 100px;
+    height: 100px;
+    box-shadow: rgba(255, 255, 255, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border: 1px solid white;
+    background: transparent;
+}
